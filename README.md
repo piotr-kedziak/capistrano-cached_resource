@@ -34,6 +34,13 @@ stages:
 cap production cached_resource:clear
 ```
 
+## Hooks
+This gem will, by default add a hook to run a `cached_resource:clear` task after each deploy.
+You can change this behaviour by adding this line to your `deploy.rb` file:
+```ruby
+set :clear_cached_resource_after_deploy, true # by default or false
+```
+
 
 
 ## License
