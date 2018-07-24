@@ -5,7 +5,7 @@ require "capistrano/cached_resource/version"
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-cached_resource"
   spec.version       = Capistrano::CachedResource::VERSION
-  spec.authors       = ["Piotr Kędziak Valiantsin Mikhaliuk"]
+  spec.authors       = ['Piotr Kędziak', 'Valiantsin Mikhaliuk']
   spec.email         = ["piotr@kedziak.com"]
 
   spec.summary       = %q{Short summary}
