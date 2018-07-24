@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rails', '>= 4'
   spec.add_dependency 'capistrano', '>= 3.9.0'
-  spec.add_dependency 'active_resource'
+  spec.add_dependency 'activeresource'
   spec.add_dependency 'cached_resource'
 
   spec.add_development_dependency "bundler", "~> 1.16"
