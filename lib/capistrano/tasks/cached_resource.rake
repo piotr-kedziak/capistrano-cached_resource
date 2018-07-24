@@ -15,7 +15,7 @@ namespace :cached_resource do
   task :clear do
     on roles(:app) do
       within current_path do
-        execute :bundle, 'exec rails cached_resource:clear'
+        execute :bundle, 'exec rails runner "ActiveResource::Base.descendants.each(&:clear_cache)"'
       end
     end
   end
